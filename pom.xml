@@ -18,4 +18,14 @@
   <build>
     <finalName>WebApp</finalName>
   </build>
+   <distributionManagement>
+    <snapshotRepository>
+      <id>nexusdeploymentrepo</id>
+      <url>http://34.125.228.212:8081/repository/maven-snapshots/</url> #Here add from nexus
+    </snapshotRepository>
+	<repository>
+	  <id>nexusdeploymentrepo</id>
+      <url>http://34.125.228.212:8081/repository/maven-releases/</url> #Here add from nexus
+    </repository> 
+  </distributionManagement>
 </project>
