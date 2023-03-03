@@ -18,4 +18,10 @@
   <build>
     <finalName>WebApp</finalName>
   </build>
+  <properties>
+ <sonar.projectKey>Sona_Github</sonar.projectKey>
+ <sonar.organization>cndacademy</sonar.organization>
+ <sonar.host.url>http://34.125.138.85:9000</sonar.host.url>
+ <sonar.login>sqp_99736f9f2c4699acb718e7ccc74da9fd4bc10596</sonar.login>
+</properties>
 </project>
